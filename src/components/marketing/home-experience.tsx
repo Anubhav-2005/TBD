@@ -122,15 +122,15 @@ export function HomeExperience() {
           </div>
           <div className="mt-20 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-white/10 bg-white/10 text-center sm:grid-cols-4">
             <div className="bg-[#101411]/80 p-5">
-              <p className="text-2xl font-semibold">34</p>
+              <p className="text-2xl font-semibold">Coming soon</p>
               <p className="mt-1 text-xs text-white/50">launches shipped</p>
             </div>
             <div className="bg-[#101411]/80 p-5">
-              <p className="text-2xl font-semibold">4.9/5</p>
-              <p className="mt-1 text-xs text-white/50">partner rating*</p>
+              <p className="text-2xl font-semibold">To be declared</p>
+              <p className="mt-1 text-xs text-white/50">partner rating</p>
             </div>
             <div className="bg-[#101411]/80 p-5">
-              <p className="text-2xl font-semibold">11</p>
+              <p className="text-2xl font-semibold">Coming soon</p>
               <p className="mt-1 text-xs text-white/50">specialist disciplines</p>
             </div>
             <div className="bg-[#101411]/80 p-5">
@@ -256,7 +256,7 @@ export function HomeExperience() {
                       </div>
                     </div>
                     <span className="absolute bottom-5 left-5 rounded-full bg-[#151722] px-3 py-1.5 text-xs text-white">
-                      {study.metric} {study.metricLabel}
+                      {study.metric} · {study.metricLabel}
                     </span>
                   </div>
                   <p className="mt-5 text-xs text-[#716d82]">

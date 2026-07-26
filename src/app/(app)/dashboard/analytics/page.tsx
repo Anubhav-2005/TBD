@@ -1,21 +1,29 @@
 import { MetricCard } from "@/components/operations/metric-card";
 export default function AnalyticsPage() {
   const funnel = [
-    ["Website visits", "28,420", 100],
-    ["Qualified enquiries", "482", 68],
-    ["Discovery calls", "84", 42],
-    ["Proposals sent", "31", 26],
-    ["New engagements", "12", 15],
+    ["Website visits", "To be declared", 100],
+    ["Qualified enquiries", "Coming soon", 68],
+    ["Discovery calls", "Coming soon", 42],
+    ["Proposals sent", "To be declared", 26],
+    ["New engagements", "Coming soon", 15],
   ];
   return (
     <div className="mx-auto max-w-7xl">
       <p className="font-mono text-xs tracking-[.16em] text-violet-700">INTELLIGENCE / ANALYTICS</p>
       <h1 className="mt-2 text-3xl font-semibold tracking-[-.05em]">What is compounding.</h1>
       <section className="mt-7 grid gap-3 md:grid-cols-4">
-        <MetricCard label="Website leads" value="482" change="12.4% month on month" />
-        <MetricCard label="Win rate" value="38.7%" change="4.1 points above target" />
-        <MetricCard label="Client retention" value="91%" change="3 renewals this quarter" />
-        <MetricCard label="Delivery margin" value="44.2%" change="On target" />
+        <MetricCard label="Website leads" value="Coming soon" change="Live data will appear here" />
+        <MetricCard label="Win rate" value="To be declared" change="Live data will appear here" />
+        <MetricCard
+          label="Client retention"
+          value="Coming soon"
+          change="Live data will appear here"
+        />
+        <MetricCard
+          label="Delivery margin"
+          value="To be declared"
+          change="Live data will appear here"
+        />
       </section>
       <section className="mt-7 grid gap-5 lg:grid-cols-2">
         <div className="rounded-2xl border border-[#dedde6] bg-white p-5">
@@ -42,7 +50,7 @@ export default function AnalyticsPage() {
           <div className="mt-7 grid h-64 place-items-center">
             <div className="grid size-44 place-items-center rounded-full border-[28px] border-violet-500 border-t-amber-300 border-l-cyan-400">
               <div className="text-center">
-                <p className="text-2xl font-semibold">₹12.4L</p>
+                <p className="text-lg font-semibold">To be declared</p>
                 <p className="text-xs text-[#716d82]">monthly revenue</p>
               </div>
             </div>

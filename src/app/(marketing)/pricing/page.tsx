@@ -9,21 +9,21 @@ const plans = [
     name: "Signal",
     title: "Landing page",
     body: "For a singular launch, offer, or campaign.",
-    price: "₹1.2L",
+    price: "To be declared",
     items: ["Strategy sprint", "One conversion journey", "Responsive build"],
   },
   {
     name: "Foundation",
     title: "Business website",
     body: "For teams ready to make their full story easier to understand.",
-    price: "₹2.8L",
+    price: "To be declared",
     items: ["Content structure", "Up to 12 key pages", "CMS & analytics"],
   },
   {
     name: "Latitude",
     title: "Premium platform",
     body: "For brands building a more meaningful digital advantage.",
-    price: "₹6L+",
+    price: "To be declared",
     items: ["Research & positioning", "Design system", "Custom application layer"],
   },
 ];
@@ -33,11 +33,11 @@ export default function PricingPage() {
       <section className="mx-auto max-w-7xl px-6 pb-16 text-center">
         <p className="font-mono text-xs tracking-[.18em] text-violet-700">INVESTMENT</p>
         <h1 className="mx-auto mt-6 max-w-4xl text-5xl font-semibold tracking-[-.06em] sm:text-7xl">
-          Clear ranges. Serious outcomes.
+          Clear scope. Serious outcomes.
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-[#635f72]">
-          Every engagement begins with context. These ranges help you find the right starting point
-          before we scope the work together.
+          Every engagement begins with context. Scope and investment are finalised after discovery,
+          so there are no made-up numbers on this page.
         </p>
       </section>
       <section className="mx-auto grid max-w-7xl gap-4 px-6 pb-24 lg:grid-cols-3">
@@ -59,7 +59,7 @@ export default function PricingPage() {
             </p>
             <p className="mt-9 text-4xl font-semibold">{plan.price}</p>
             <p className={`mt-1 text-xs ${index === 1 ? "text-white/45" : "text-[#716d82]"}`}>
-              indicative investment
+              investment to be declared after discovery
             </p>
             <ul className="mt-9 space-y-3">
               {plan.items.map((item) => (
@@ -84,8 +84,8 @@ export default function PricingPage() {
         <div className="mx-auto max-w-7xl">
           <p className="font-mono text-xs tracking-[.16em] text-[#716d82]">ONGOING MOMENTUM</p>
           <div className="mt-6 grid gap-6 md:grid-cols-3">
-            <p className="text-xl font-semibold">SEO & content / from ₹75K per month</p>
-            <p className="text-xl font-semibold">Maintenance & improvement / from ₹60K per month</p>
+            <p className="text-xl font-semibold">SEO & content / coming soon</p>
+            <p className="text-xl font-semibold">Maintenance & improvement / to be declared</p>
             <p className="text-xl font-semibold">Brand & campaign support / scoped to need</p>
           </div>
         </div>

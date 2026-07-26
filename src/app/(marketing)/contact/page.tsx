@@ -19,8 +19,8 @@ export default function ContactPage() {
           <div className="mt-12 space-y-5 text-sm">
             <div>
               <p className="text-white/45">Email</p>
-              <a className="mt-1 block font-medium" href="mailto:hello@arcture.studio">
-                hello@arcture.studio
+              <a className="mt-1 block font-medium" href="mailto:tibs2005@gmail.com">
+                tibs2005@gmail.com
               </a>
             </div>
             <div>
@@ -29,10 +29,7 @@ export default function ContactPage() {
             </div>
             <div>
               <p className="text-white/45">For time-sensitive production support</p>
-              <p className="mt-1 font-medium">
-                +91 00000 00000{" "}
-                <span className="text-xs text-white/40">(replace before launch)</span>
-              </p>
+              <p className="mt-1 font-medium">+91 97953 89798</p>
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ export const services: Service[] = [
     eyebrow: "Website development",
     summary:
       "Editorially sharp, impossibly fast sites built around the moment a buyer decides to care.",
-    price: "From ₹1.8L",
+    price: "To be declared",
     timeline: "4–8 weeks",
     deliverables: [
       "Content architecture",
@@ -32,7 +32,7 @@ export const services: Service[] = [
     eyebrow: "Custom web apps",
     summary:
       "Useful software for the operational knots that spreadsheets and off-the-shelf tools leave behind.",
-    price: "From ₹6L",
+    price: "To be declared",
     timeline: "8–16 weeks",
     deliverables: ["Product strategy", "UX system", "Secure application", "Team enablement"],
     technology: ["Next.js", "PostgreSQL", "Prisma", "Redis"],
@@ -43,7 +43,7 @@ export const services: Service[] = [
     eyebrow: "E-commerce",
     summary:
       "Storefronts that make choosing feel simple—and give teams a calmer way to run growth.",
-    price: "From ₹3.5L",
+    price: "To be declared",
     timeline: "6–12 weeks",
     deliverables: ["Conversion design", "Catalog migration", "Payments", "Lifecycle analytics"],
     technology: ["Shopify", "Next.js", "Razorpay", "Klaviyo"],
@@ -54,7 +54,7 @@ export const services: Service[] = [
     eyebrow: "Branding & UI/UX",
     summary:
       "A distinctive verbal and visual system designed to make every subsequent decision easier.",
-    price: "From ₹2.4L",
+    price: "To be declared",
     timeline: "4–10 weeks",
     deliverables: ["Positioning", "Identity system", "Design language", "Launch toolkit"],
     technology: ["Figma", "FigJam", "After Effects", "Storybook"],
@@ -65,7 +65,7 @@ export const services: Service[] = [
     eyebrow: "SEO & marketing",
     summary:
       "Search, content, and campaigns that compound rather than chase a weekly dashboard spike.",
-    price: "From ₹75K/mo",
+    price: "Coming soon",
     timeline: "90-day runway",
     deliverables: ["Search strategy", "Content engine", "Campaign creative", "Reporting"],
     technology: ["GA4", "Search Console", "HubSpot", "Looker Studio"],
@@ -76,7 +76,7 @@ export const services: Service[] = [
     eyebrow: "Automation & maintenance",
     summary:
       "Reliable systems that remove repetitive work, reduce risk, and leave your team room to think.",
-    price: "From ₹60K/mo",
+    price: "Coming soon",
     timeline: "2–6 weeks",
     deliverables: ["Workflow audit", "Automations", "Monitoring", "Runbooks"],
     technology: ["Zapier", "n8n", "PostgreSQL", "Sentry"],
@@ -108,40 +108,40 @@ export const caseStudies = [
     client: "Meridian Health",
     category: "Healthcare platform",
     title: "Making specialist care feel within reach.",
-    metric: "+42%",
-    metricLabel: "qualified consultations",
+    metric: "Coming soon",
+    metricLabel: "verified outcome",
     accent: "from-cyan-300 via-blue-500 to-violet-600",
     technologies: ["Next.js", "Sanity", "GA4"],
     challenge:
       "High-intent visitors could not quickly find the right specialist or understand the next step.",
     result:
-      "A calm guided path that made care options legible, bringing qualified consultation requests up 42% in 90 days.",
+      "A calm guided path that makes care options legible. Verified performance results will be published after launch.",
   },
   {
     slug: "northstar-living",
     client: "Northstar Living",
     category: "Real estate",
     title: "A property brand with room to breathe.",
-    metric: "3.1×",
-    metricLabel: "site engagement",
+    metric: "To be declared",
+    metricLabel: "verified outcome",
     accent: "from-amber-200 via-orange-400 to-rose-500",
     technologies: ["Next.js", "Cloudinary", "HubSpot"],
     challenge: "An exceptional portfolio was hidden behind dense copy and an inflexible CMS.",
     result:
-      "An image-led story system and enquiry journey that increased meaningful browsing by 3.1×.",
+      "An image-led story system and enquiry journey. Verified performance results are coming soon.",
   },
   {
     slug: "field-notes",
     client: "Field Notes",
     category: "B2B SaaS",
     title: "Turning a technical tool into a clear invitation.",
-    metric: "-28%",
-    metricLabel: "sales cycle",
+    metric: "Coming soon",
+    metricLabel: "verified outcome",
     accent: "from-emerald-200 via-teal-500 to-cyan-600",
     technologies: ["Next.js", "PostHog", "Resend"],
     challenge: "The product was powerful, but buyers needed a sales call to understand its value.",
     result:
-      "A focused narrative and interactive product tour helped teams self-qualify earlier, shortening sales cycles by 28%.",
+      "A focused narrative and interactive product tour designed to help teams self-qualify earlier. Verified results are coming soon.",
   },
 ];
 

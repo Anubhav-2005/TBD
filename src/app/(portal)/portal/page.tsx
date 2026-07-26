@@ -28,14 +28,14 @@ export default async function ClientPortalPage() {
             <div className="h-full w-[46%] rounded-full bg-violet-400" />
           </div>
           <p className="mt-2 text-xs text-white/50">
-            46% complete · Design direction review is next
+            Progress to be declared · Design direction review is next
           </p>
         </section>
         <section className="mt-6 grid gap-4 md:grid-cols-3">
           {[
             ["Next approval", "Homepage direction", "Review by 25 Jul"],
-            ["Shared files", "18 assets", "Latest: direction-v3.fig"],
-            ["Invoice status", "₹1,85,000 due", "Due 26 Jul"],
+            ["Shared files", "Coming soon", "Live project data will appear here"],
+            ["Invoice status", "To be declared", "Billing details coming soon"],
           ].map(([title, value, meta]) => (
             <article key={title} className="rounded-2xl border border-[#dedde6] bg-white p-5">
               <p className="text-sm text-[#716d82]">{title}</p>

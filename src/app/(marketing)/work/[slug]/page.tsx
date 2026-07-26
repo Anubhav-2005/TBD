@@ -71,9 +71,9 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
           <p className="mt-4 text-2xl leading-9 tracking-[-.03em]">{study.result}</p>
         </section>
         <blockquote className="border-l-2 border-violet-600 pl-6 text-2xl leading-9 font-medium">
-          “The work gave our team a clearer story and our customers a faster way to say yes.”
+          “Client story coming soon — this work is currently being prepared for publication.”
           <footer className="mt-4 text-sm font-normal text-[#716d82]">
-            — Placeholder testimonial, replace before publication
+            — Testimonial to be declared
           </footer>
         </blockquote>
         <Link

@@ -80,7 +80,7 @@ export function LeadForm({
       </button>
       {status === "error" && (
         <p className="text-xs text-rose-300">
-          Something went wrong. Please try again or email hello@arcture.studio.
+          Something went wrong. Please try again or email tibs2005@gmail.com.
         </p>
       )}
     </form>

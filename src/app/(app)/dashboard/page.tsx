@@ -32,26 +32,26 @@ export default function DashboardPage() {
       <section className="mt-7 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
         <MetricCard
           label="Monthly revenue"
-          value="₹12.4L"
-          change="18.2% from June"
+          value="To be declared"
+          change="Live data will appear here"
           icon={<CircleDollarSign className="size-4" />}
         />
         <MetricCard
           label="Qualified pipeline"
-          value="₹31.8L"
-          change="4 opportunities this week"
+          value="Coming soon"
+          change="Live data will appear here"
           icon={<UsersRound className="size-4" />}
         />
         <MetricCard
           label="Active projects"
-          value="08"
-          change="6 on track"
+          value="To be declared"
+          change="Live data will appear here"
           icon={<Activity className="size-4" />}
         />
         <MetricCard
           label="Outstanding invoices"
-          value="₹3.6L"
-          change="2 due this week"
+          value="Coming soon"
+          change="Live data will appear here"
           icon={<ReceiptText className="size-4" />}
         />
       </section>
@@ -63,7 +63,7 @@ export default function DashboardPage() {
               <p className="mt-1 text-xs text-[#716d82]">Collected revenue / trailing 6 months</p>
             </div>
             <span className="rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-medium text-emerald-700">
-              +24.6%
+              Coming soon
             </span>
           </div>
           <div className="mt-8 flex h-48 items-end gap-3 border-b border-[#dedde6] pb-1">
