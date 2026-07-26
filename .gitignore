@@ -1,0 +1,21 @@
+# dependencies and framework output
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+
+# local environment and secrets
+.env
+.env.*
+!.env.example
+
+# generated database client and local storage
+src/generated/
+prisma/*.db
+
+# operating-system and editor noise
+.DS_Store
+*.log
+*.tsbuildinfo

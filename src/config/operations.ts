@@ -1,0 +1,136 @@
+import type { Route } from "next";
+import {
+  BarChart3,
+  BriefcaseBusiness,
+  CalendarDays,
+  FileText,
+  FolderKanban,
+  Handshake,
+  LifeBuoy,
+  MessageSquare,
+  ReceiptText,
+  Search,
+  Settings,
+  UsersRound,
+} from "lucide-react";
+
+export const workspaceNav: { href: Route; label: string; icon: typeof BarChart3 }[] = [
+  { href: "/dashboard", label: "Overview", icon: BarChart3 },
+  { href: "/dashboard/crm", label: "CRM", icon: UsersRound },
+  { href: "/dashboard/prospects", label: "Prospects", icon: Search },
+  { href: "/dashboard/projects", label: "Projects", icon: FolderKanban },
+  { href: "/dashboard/tasks", label: "Tasks", icon: BriefcaseBusiness },
+  { href: "/dashboard/invoices", label: "Invoices", icon: ReceiptText },
+  { href: "/dashboard/files", label: "Files", icon: FileText },
+  { href: "/dashboard/messages", label: "Messages", icon: MessageSquare },
+  { href: "/dashboard/meetings", label: "Meetings", icon: CalendarDays },
+  { href: "/dashboard/support", label: "Support", icon: LifeBuoy },
+  { href: "/dashboard/analytics", label: "Analytics", icon: BarChart3 },
+  { href: "/dashboard/cms", label: "Content", icon: Handshake },
+  { href: "/dashboard/settings", label: "Settings", icon: Settings },
+];
+
+export const leads = [
+  {
+    name: "Aster & Co.",
+    contact: "Maya Shah",
+    service: "Brand + website",
+    value: "₹4.8L",
+    stage: "Proposal",
+    owner: "AP",
+    next: "Today, 16:30",
+    priority: "High",
+  },
+  {
+    name: "Kite Dental",
+    contact: "Rohan Mehta",
+    service: "Patient acquisition",
+    value: "₹2.2L",
+    stage: "Qualified",
+    owner: "SM",
+    next: "Tomorrow",
+    priority: "Medium",
+  },
+  {
+    name: "Nori Foods",
+    contact: "Neha Iyer",
+    service: "E-commerce",
+    value: "₹6.5L",
+    stage: "Negotiation",
+    owner: "AP",
+    next: "Fri, 11:00",
+    priority: "High",
+  },
+  {
+    name: "Northline Studio",
+    contact: "Arjun Rao",
+    service: "Web application",
+    value: "₹9.0L",
+    stage: "New",
+    owner: "RJ",
+    next: "Mon, 10:00",
+    priority: "Low",
+  },
+];
+
+export const projects = [
+  {
+    name: "Meridian Health",
+    client: "Meridian Group",
+    phase: "Build",
+    progress: 72,
+    due: "14 Jul",
+    team: ["AP", "SM", "VK"],
+  },
+  {
+    name: "Northstar Living",
+    client: "Northstar Properties",
+    phase: "Design",
+    progress: 46,
+    due: "28 Jul",
+    team: ["SM", "RJ"],
+  },
+  {
+    name: "Field Notes",
+    client: "Field Notes Inc.",
+    phase: "Discovery",
+    progress: 18,
+    due: "06 Aug",
+    team: ["AP", "VK"],
+  },
+];
+
+export const tasks = [
+  {
+    id: "TSK-142",
+    title: "Approve the homepage motion direction",
+    project: "Northstar Living",
+    assignee: "SM",
+    priority: "High",
+    due: "Today",
+  },
+  {
+    id: "TSK-139",
+    title: "Map lead qualification fields",
+    project: "Agency OS",
+    assignee: "AP",
+    priority: "Medium",
+    due: "Tomorrow",
+  },
+  {
+    id: "TSK-128",
+    title: "Ship accessibility QA fixes",
+    project: "Meridian Health",
+    assignee: "VK",
+    priority: "High",
+    due: "Thu",
+  },
+  {
+    id: "TSK-121",
+    title: "Prepare launch reporting baseline",
+    project: "Field Notes",
+    assignee: "RJ",
+    priority: "Low",
+    due: "Fri",
+  },
+];
