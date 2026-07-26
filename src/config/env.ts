@@ -10,6 +10,7 @@ const optionalUrl = z.preprocess(
 );
 const isNextBuild = process.env.NEXT_PHASE === "phase-production-build";
 const buildAuthSecret = "next-build-only-auth-secret-placeholder-32chars";
+const buildDatabaseUrl = "postgresql://build:build@localhost:5432/build";
 const serverSchema = z.object({
   DATABASE_URL: z.string().url(),
   DIRECT_URL: z.string().url(),
@@ -33,8 +34,8 @@ const clientSchema = z.object({
 });
 
 export const env = serverSchema.parse({
-  DATABASE_URL: process.env.DATABASE_URL,
-  DIRECT_URL: process.env.DIRECT_URL,
+  DATABASE_URL: process.env.DATABASE_URL ?? (isNextBuild ? buildDatabaseUrl : undefined),
+  DIRECT_URL: process.env.DIRECT_URL ?? (isNextBuild ? buildDatabaseUrl : undefined),
   // Docker builds on Render do not receive runtime secrets. Keep the strict
   // runtime requirement while allowing Next to statically collect route data.
   AUTH_SECRET: process.env.AUTH_SECRET ?? (isNextBuild ? buildAuthSecret : undefined),
