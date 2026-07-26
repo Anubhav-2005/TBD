@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { SiteFooter } from "@/components/marketing/site-footer";
 import { SiteHeader } from "@/components/marketing/site-header";
-import { SmoothScroll } from "@/components/shared/smooth-scroll";
 
 export const metadata: Metadata = {
   title: { default: "TBD — To Be Declared", template: "%s — TBD" },
@@ -11,10 +10,10 @@ export const metadata: Metadata = {
 };
 export default function MarketingLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <SmoothScroll>
+    <>
       <SiteHeader />
       {children}
       <SiteFooter />
-    </SmoothScroll>
+    </>
   );
 }
