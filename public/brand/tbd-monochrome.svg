@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 112" role="img" aria-labelledby="title desc">
+  <title id="title">TBD monochrome logo</title>
+  <desc id="desc">Single-color TBD horizontal logo.</desc>
+  <g fill="currentColor">
+    <path fill-rule="evenodd" d="M8 8h96v12H20v20h48v12H20v20h84v12H8V8Zm42 24h12v40H50V32Z"/>
+    <text x="128" y="80" font-family="Space Grotesk, Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-5">TBD</text>
+  </g>
+</svg>

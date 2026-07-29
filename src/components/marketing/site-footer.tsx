@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { industries, services } from "@/config/marketing";
 
@@ -8,9 +9,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-12 border-b border-white/10 pb-14 md:grid-cols-[1.3fr_.7fr_.7fr]">
           <div>
-            <p className="text-xs font-medium tracking-[0.22em] text-[#d9ff57]">
-              TBD / TO BE DECLARED
-            </p>
+            <Image src="/brand/tbd-light.svg" alt="TBD / To Be Declared" width={220} height={40} />
             <h2 className="mt-5 max-w-lg text-4xl font-semibold tracking-[-0.04em]">
               Declare what your next version is made of.
             </h2>

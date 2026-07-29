@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 360" role="img" aria-labelledby="title desc">
+  <title id="title">TBD stacked logo</title>
+  <desc id="desc">TBD symbol above the stacked wordmark.</desc>
+  <g color="#D9FF57">
+    <path fill="currentColor" fill-rule="evenodd" d="M72 24h176v22H94v42h96v22H94v42h154v22H72V24Zm77 45h22v83h-22V69Z"/>
+  </g>
+  <text x="36" y="306" fill="#F5F4EE" font-family="Space Grotesk, Arial, sans-serif" font-size="90" font-weight="700" letter-spacing="-6">TBD</text>
+  <text x="42" y="336" fill="#F5F4EE" opacity=".55" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="2">TO BE DECLARED</text>
+</svg>

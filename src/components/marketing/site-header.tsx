@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -14,9 +15,13 @@ export function SiteHeader() {
     <header className="fixed inset-x-0 top-0 z-50 px-4 pt-4">
       <div className="mx-auto flex max-w-7xl items-center justify-between rounded-2xl border border-[#d9ff57]/20 bg-[#101411]/80 px-4 py-3 text-white shadow-2xl shadow-black/20 backdrop-blur-xl md:px-5">
         <Link href="/" className="group flex items-center gap-2 font-semibold tracking-tight">
-          <span className="grid size-7 place-items-center rounded-lg bg-[#d9ff57] text-xs text-[#101411] transition-transform group-hover:rotate-12">
-            T
-          </span>{" "}
+          <Image
+            src="/brand/tbd-favicon.svg"
+            alt="TBD"
+            width={28}
+            height={28}
+            className="size-7 transition-transform group-hover:rotate-6"
+          />
           TBD <span className="text-xs font-normal text-white/45">/ To Be Declared</span>
         </Link>
         <nav className="hidden items-center gap-1 md:flex">

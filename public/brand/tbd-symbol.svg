@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">TBD symbol</title>
+  <desc id="desc">An open geometric frame built from three balanced bars.</desc>
+  <path fill="currentColor" fill-rule="evenodd" d="M14 14h68v10H24v18h34v10H24v18h58v10H14V14Zm30 18h10v36H44V32Z"/>
+</svg>
