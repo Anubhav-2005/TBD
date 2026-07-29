@@ -15,12 +15,16 @@ export const metadata: Metadata = {
   title: { default: "TBD — To Be Declared", template: "%s · TBD" },
   description: "A creative technology company for the next declaration.",
   robots: { index: true, follow: true },
+  icons: {
+    icon: "/brand/tbd-favicon.svg",
+    apple: "/brand/tbd-app-icon.svg",
+  },
 };
 export const viewport: Viewport = {
   colorScheme: "light dark",
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fafbff" },
-    { media: "(prefers-color-scheme: dark)", color: "#11131c" },
+    { media: "(prefers-color-scheme: light)", color: "#F5F4EE" },
+    { media: "(prefers-color-scheme: dark)", color: "#101411" },
   ],
 };
 
